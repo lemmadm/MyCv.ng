@@ -115,3 +115,30 @@ body {
   25% { transform: translateX(-5px); }
   75% { transform: translateX(5px); }
 }
+
+/* Animations for MePage (Skill Bars) */
+@keyframes fillBar {
+  from { width: 0%; }
+  to { width: var(--target-width, 100%); }
+}
+
+/* Print styles for MePage */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .print-card, .print-card * {
+    visibility: visible;
+  }
+  .print-card {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3.5in;
+    height: 2in;
+    display: block !important;
+    background: white;
+    padding: 0.2in;
+    box-sizing: border-box;
+  }
+}
