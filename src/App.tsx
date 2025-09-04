@@ -8,7 +8,8 @@ import WelcomePage from './pages/WelcomePage';
 import ErrorPage from './pages/ErrorPage';
 import MePage from './pages/MePage';
 import AdminDashboardPage from './pages/AdminDashboardPage';
-import ApiDocsPage from './pages/ApiDocsPage'; // Import the new ApiDocsPage
+import ApiDocsPage from './pages/ApiDocsPage';
+import MeProPage from './pages/MeProPage'; // Import the new MeProPage
 
 function App() {
   return (
@@ -21,8 +22,9 @@ function App() {
           <Route path="/refund" element={<RefundPage />} />
           <Route path="/welcome" element={<WelcomePage />} />
           <Route path="/me" element={<MePage />} />
+          <Route path="/me-pro" element={<MeProPage />} /> {/* New route for MeProPage */}
           <Route path="/admin" element={<AdminDashboardPage />} />
-          <Route path="/api-docs" element={<ApiDocsPage />} /> {/* New route for API Docs Page */}
+          <Route path="/api-docs" element={<ApiDocsPage />} />
           <Route path="/error" element={<ErrorPage />} />
           {/* Fallback for any unmatched routes */}
           <Route path="*" element={<ErrorPage />} />
