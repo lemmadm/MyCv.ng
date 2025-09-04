@@ -1,0 +1,163 @@
+/* 🌈 Gradients */
+.gradient-bg,
+.hero-gradient {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.price-highlight {
+  background: linear-gradient(45deg, #f59e0b, #d97706);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.security-badge {
+  background: linear-gradient(45deg, #10b981, #059669);
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* ✨ Card Hover Effects */
+.card-hover,
+.feature-card,
+.package-card,
+.testimonial-card {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover,
+.feature-card:hover,
+.package-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+}
+
+.testimonial-card:hover {
+  transform: scale(1.02);
+}
+
+/* 🔥 Package Card Special */
+.package-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.package-card.popular {
+  border: 2px solid #ff6b6b;
+  margin-top: 20px;
+}
+
+.package-card.popular::before {
+  content: '🔥 MOST POPULAR';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+  color: #fff;
+  text-align: center;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* 📝 Forms & Steps */
+.form-section {
+  display: none;
+}
+
+.form-section.active {
+  display: block;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.step-indicator,
+.order-step {
+  transition: all 0.3s ease;
+}
+
+.step-active,
+.order-step.active {
+  background: #3b82f6;
+  color: #fff;
+}
+
+.step-completed,
+.order-step.completed {
+  background: #10b981;
+  color: #fff;
+}
+
+/* ⏳ Loading */
+.loading-spinner {
+  border: 3px solid #f3f4f6;
+  border-top: 3px solid #667eea;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+
+/* 📊 Progress Bar */
+.progress-bar {
+  transition: width 0.5s ease;
+}
+
+/* 💬 Typing Effect */
+.typing-animation::after {
+  content: '|';
+  animation: blink 1s infinite;
+}
+
+/* 🎬 Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.floating-animation {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+.pulse-animation {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+/* 📦 Modal */
+.modal {
+  transition: all 0.3s ease;
+}
+
+.modal.show {
+  display: flex !important;
+}

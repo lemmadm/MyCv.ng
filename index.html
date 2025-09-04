@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/cv-website-nigeria.png" type="image/x-icon">
+    <title>MyCv.ng - Professional CV Websites for Nigerians</title>
+
+    <meta name="description" content="Turn your CV into a mobile-friendly website in 24 hours. Affordable at ₦2,500. Perfect for job seekers, freelancers, and professionals in Nigeria.">
+    <meta name="keywords" content="CV website Nigeria, online CV Nigeria, digital resume Nigeria, create website CV in 24 hours, professional CV website for job seekers">
+    <meta name="author" content="MyCv.ng">
+
+    <meta property="og:title" content="Create Your Online CV Website in Nigeria | MyCv.ng">
+    <meta property="og:description" content="Turn your CV into a mobile-friendly website in 24 hours. Affordable at ₦2,500. Perfect for job seekers, freelancers, and professionals in Nigeria.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mycv.ng">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://js.paystack.co/v1/inline.js"></script>
+</head>
+
+
+<body class="bg-gray-50">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center gap-3">
+                    <span class="text-xl font-bold text-gray-800">MyCv.ng</span>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-blue-600 transition duration-300">Home</a>
+                    <a href="#features" class="text-gray-700 hover:text-blue-600 transition duration-300">Features</a>
+                    <a href="#packages" class="text-gray-700 hover:text-blue-600 transition duration-300">Packages</a>
+                    <!-- <a href="#examples" class="text-gray-700 hover:text-blue-600 transition duration-300">Examples</a> -->
+                    <button onclick="openTrackingModal()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition duration-300">
+                        📦 Track Order
+                    </button>
+                </div>
+                
+                <div class="md:hidden">
+                    <button onclick="toggleMobileMenu()" class="text-gray-700">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#home" class="block px-3 py-2 text-gray-700">Home</a>
+                <a href="#features" class="block px-3 py-2 text-gray-700">Features</a>
+                <a href="#packages" class="block px-3 py-2 text-gray-700">Packages</a>
+                <!-- <a href="#examples" class="block px-3 py-2 text-gray-700">Examples</a>-->
+                <button onclick="openTrackingModal()" class="block w-full text-left px-3 py-2 text-blue-600">Track Order</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-gradient pt-20 pb-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="text-white">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                        Get Your Professional 
+                        <span class="text-yellow-300 typing-animation">CV Website</span>
+                    </h1>
+                    <p class="text-xl mb-8 opacity-90">
+                        Stand out from the crowd with a stunning, mobile-responsive CV website. 
+                        Perfect for Nigerian professionals looking to make a global impact! 🇳🇬
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button onclick="scrollToPackages()" class="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-4 px-8 rounded-lg text-lg transition duration-300 transform hover:scale-105">
+                            🚀 Get Started Now
+                        </button>
+                        <button onclick="openTrackingModal()" class="border-2 border-white text-white hover:bg-white hover:text-gray-900 font-bold py-4 px-8 rounded-lg text-lg transition duration-300">
+                            📦 Track My Order
+                        </button>
+                    </div>
+                    
+                    <div class="mt-12 flex items-center gap-8">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold">100+</div>
+                            <div class="text-sm opacity-75">Websites Created</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold">98%</div>
+                            <div class="text-sm opacity-75">Happy Customers</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold">24hrs</div>
+                            <div class="text-sm opacity-75">Average Delivery</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <div class="floating-animation">
+                        <div class="bg-white rounded-2xl shadow-2xl p-8 transform rotate-3">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold">
+                                    AO
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-gray-800">Adebayo Ogundimu</h3>
+                                    <p class="text-gray-600 text-sm">Software Developer</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-700 mb-4">
+                                "MyCv.ng helped me land my dream job at a tech company in Lagos! 
+                                My website looks so professional."
+                            </p>
+                            <div class="flex text-yellow-400">
+                                ⭐⭐⭐⭐⭐
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="absolute -bottom-4 -right-4 bg-green-500 text-white p-4 rounded-xl transform -rotate-12 pulse-animation">
+                        <div class="text-2xl font-bold">₦2,500</div>
+                        <div class="text-sm">Starting Price</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Why Choose MyCv.ng?</h2>
+                <p class="text-xl text-gray-600">Built by Nigerians, for Nigerians - with global standards</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="feature-card bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl">
+                    <div class="w-16 h-16 bg-blue-500 rounded-2xl flex items-center justify-center text-white text-2xl mb-6">
+                        📱
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Mobile Responsive</h3>
+                    <p class="text-gray-600">
+                        Your CV website looks perfect on all devices - phones, tablets, and desktops. 
+                        Recruiters can view it anywhere, anytime.
+                    </p>
+                </div>
+                
+                <div class="feature-card bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-2xl">
+                    <div class="w-16 h-16 bg-green-500 rounded-2xl flex items-center justify-center text-white text-2xl mb-6">
+                        ⚡
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Lightning Fast</h3>
+                    <p class="text-gray-600">
+                        Optimized for speed and performance. Your website loads in under 2 seconds, 
+                        keeping recruiters engaged.
+                    </p>
+                </div>
+                
+                <div class="feature-card bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-2xl">
+                    <div class="w-16 h-16 bg-purple-500 rounded-2xl flex items-center justify-center text-white text-2xl mb-6">
+                        🎨
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Professional Design</h3>
+                    <p class="text-gray-600">
+                        Beautiful, modern templates designed by professionals. 
+                        Stand out with a design that reflects your expertise.
+                    </p>
+                </div>
+                
+                <div class="feature-card bg-gradient-to-br from-orange-50 to-orange-100 p-8 rounded-2xl">
+                    <div class="w-16 h-16 bg-orange-500 rounded-2xl flex items-center justify-center text-white text-2xl mb-6">
+                        🔍
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">SEO Optimized</h3>
+                    <p class="text-gray-600">
+                        Your website is optimized for search engines. 
+                        Recruiters can easily find you when they search online.
+                    </p>
+                </div>
+                
+                <div class="feature-card bg-gradient-to-br from-red-50 to-red-100 p-8 rounded-2xl">
+                    <div class="w-16 h-16 bg-red-500 rounded-2xl flex items-center justify-center text-white text-2xl mb-6">
+                        🇳🇬
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Nigerian Focused</h3>
+                    <p class="text-gray-600">
+                        We understand the Nigerian job market and create websites 
+                        that resonate with local and international employers.
+                    </p>
+                </div>
+                
+                <div class="feature-card bg-gradient-to-br from-indigo-50 to-indigo-100 p-8 rounded-2xl">
+                    <div class="w-16 h-16 bg-indigo-500 rounded-2xl flex items-center justify-center text-white text-2xl mb-6">
+                        💬
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">24/7 Support</h3>
+                    <p class="text-gray-600">
+                        Our Nigerian support team is always ready to help. 
+                        Get assistance via WhatsApp, email, or phone.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Choose Your Package</h2>
+                <p class="text-xl text-gray-600">Affordable pricing for every Nigerian professional</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- With CV Package -->
+                <div class="package-card popular bg-white rounded-2xl shadow-xl p-8 pt-12">
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">With CV Package</h3>
+                        <p class="text-gray-600 mb-6">Perfect if you already have a CV</p>
+                        <div class="text-5xl font-bold text-blue-600 mb-2">₦2,500</div>
+                        <p class="text-gray-500">One-time payment</p>
+                    </div>
+                    
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-center gap-3">
+                            <span class="text-green-500 text-xl">✅</span>
+                            <span>Professional CV website</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-green-500 text-xl">✅</span>
+                            <span>yourname.mycv.ng subdomain</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-green-500 text-xl">✅</span>
+                            <span>Mobile responsive design</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-green-500 text-xl">✅</span>
+                            <span>SEO optimized</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-green-500 text-xl">✅</span>
+                            <span>24-48 hour delivery</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-green-500 text-xl">✅</span>
+                            <span>1 year free hosting</span>
+                        </div>
+                    </div>
+                    
+                    <button onclick="selectPackage('with-cv', 2500)" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-lg text-lg transition duration-300 transform hover:scale-105">
+                        🚀 Get Started
+                    </button>
+                </div>
+                
+                <!-- Custom Creation Package -->
+                <div class="package-card bg-white rounded-2xl shadow-xl p-8">
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Custom Creation</h3>
+                        <p class="text-gray-600 mb-6">We create everything from scratch</p>
+                        <div class="text-5xl font-bold text-purple-600 mb-2">₦5,000</div>
+                        <p class="text-gray-500">One-time payment</p>
+                    </div>
+                    
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-center gap-3">
+                            <span class="text-green-500 text-xl">✅</span>
+                            <span>Everything in With CV package</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-green-500 text-xl">✅</span>
+                            <span>Professional CV writing</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-green-500 text-xl">✅</span>
+                            <span>LinkedIn profile optimization</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-green-500 text-xl">✅</span>
+                            <span>Cover letter template</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-green-500 text-xl">✅</span>
+                            <span>3-5 day delivery</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="text-green-500 text-xl">✅</span>
+                            <span>Priority support</span>
+                        </div>
+                    </div>
+                    
+                    <button onclick="selectPackage('custom', 5000)" class="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-4 px-6 rounded-lg text-lg transition duration-300 transform hover:scale-105">
+                        💎 Get Premium
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Examples Section -->
+    <section id="examples" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">See Our Work</h2>
+                <p class="text-xl text-gray-600">Real websites we've created for Nigerian professionals</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-100 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="h-48 bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
+                        <div class="text-white text-center">
+                            <div class="text-4xl mb-2">👨‍💻</div>
+                            <div class="font-bold">Software Developer</div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-lg mb-2">adebayo.mycv.ng</h3>
+                        <p class="text-gray-600 text-sm mb-4">Modern template for a Lagos-based developer</p>
+                        <button onclick="previewExample('adebayo')" class="text-blue-600 hover:text-blue-800 font-medium">
+                            👁️ Preview Website
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-100 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="h-48 bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center">
+                        <div class="text-white text-center">
+                            <div class="text-4xl mb-2">👩‍⚕️</div>
+                            <div class="font-bold">Medical Doctor</div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-lg mb-2">fatima.mycv.ng</h3>
+                        <p class="text-gray-600 text-sm mb-4">Professional template for a medical practitioner</p>
+                        <button onclick="previewExample('fatima')" class="text-blue-600 hover:text-blue-800 font-medium">
+                            👁️ Preview Website
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-100 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="h-48 bg-gradient-to-br from-orange-500 to-red-600 flex items-center justify-center">
+                        <div class="text-white text-center">
+                            <div class="text-4xl mb-2">👩‍💼</div>
+                            <div class="font-bold">Marketing Manager</div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-lg mb-2">chioma.mycv.ng</h3>
+                        <p class="text-gray-600 text-sm mb-4">Creative template for a marketing professional</p>
+                        <button onclick="previewExample('chioma')" class="text-blue-600 hover:text-blue-800 font-medium">
+                            👁️ Preview Website
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section --
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">What Our Customers Say</h2>
+                <p class="text-xl text-gray-600">Join hundreds of satisfied Nigerian professionals</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="testimonial-card bg-white p-8 rounded-2xl shadow-lg">
+                    <div class="flex text-yellow-400 mb-4">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+                    <p class="text-gray-700 mb-6">
+                        "I got 3 interview calls within a week of sharing my MyCv.ng website! 
+                        The design is so professional and modern."
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold">
+                            AO
+                        </div>
+                        <div>
+                            <div class="font-bold">Adebayo Ogundimu</div>
+                            <div class="text-gray-600 text-sm">Software Developer, Lagos</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card bg-white p-8 rounded-2xl shadow-lg">
+                    <div class="flex text-yellow-400 mb-4">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+                    <p class="text-gray-700 mb-6">
+                        "The team was so professional and delivered exactly what I wanted. 
+                        My website helped me land a job in Canada!"
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white font-bold">
+                            FA
+                        </div>
+                        <div>
+                            <div class="font-bold">Fatima Abdullahi</div>
+                            <div class="text-gray-600 text-sm">Medical Doctor, Abuja</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card bg-white p-8 rounded-2xl shadow-lg">
+                    <div class="flex text-yellow-400 mb-4">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+                    <p class="text-gray-700 mb-6">
+                        "Best investment I made for my career! The website is beautiful 
+                        and the support team is amazing. Highly recommended!"
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold">
+                            CN
+                        </div>
+                        <div>
+                            <div class="font-bold">Chioma Nwankwo</div>
+                            <div class="text-gray-600 text-sm">Marketing Manager, Port Harcourt</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <div class="flex justify-center items-center gap-3 mb-4">
+                <img src="images/fav.png" alt="mycv.ng Logo" class="w-8 h-8">
+                <span class="text-2xl font-bold">MyCv.ng</span>
+            </div>
+            <p class="text-gray-400 mb-6">Professional CV websites made simple • Proudly Nigerian 🌟</p>
+            <div class="flex justify-center items-center gap-6 text-sm mb-6">
+                <span>🔒 SSL Secured</span>
+                <span>⚡ Fast Delivery</span>
+                <span>📞 24/7 Support</span>
+                <span>🇳🇬 Made in Nigeria</span>
+            </div>
+            <div class="flex justify-center items-center gap-6 text-sm mb-6">
+                <li><a href="our-terms.html" class="hover:text-white transition-colors">Terms & Conditions</a></li>
+                <li><a href="refund.html" class="hover:text-white transition-colors">Refund Policy</a></li>
+                <li><a href="privacy.html" class="hover:text-white transition-colors">Privacy Policy</a></li>
+            </div>
+            <p class="text-xs text-gray-500">© 2025 MyCv.ng - Empowering Nigerian Professionals Worldwide</p>
+        </div>
+    </footer>
+
+    <!-- Order Modal -->
+    <div id="order-modal" class="modal fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50 p-4">
+        <div class="bg-white rounded-2xl max-w-2xl w-full max-h-screen overflow-y-auto">
+            <div class="p-8">
+                <div class="flex justify-between items-center mb-8">
+                    <h2 class="text-3xl font-bold text-gray-800">Place Your Order</h2>
+                    <button onclick="closeOrderModal()" class="text-gray-500 hover:text-gray-700 text-2xl">×</button>
+                </div>
+                
+                <!-- Order Steps -->
+                <div class="flex items-center justify-center mb-8">
+                    <div class="flex items-center">
+                        <div class="order-step active w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold mr-2">1</div>
+                        <span class="text-sm font-medium mr-4">Package</span>
+                        <div class="w-16 h-1 bg-gray-300 mr-4"></div>
+                        <div class="order-step w-8 h-8 rounded-full bg-gray-300 flex items-center justify-center text-sm font-bold mr-2">2</div>
+                        <span class="text-sm font-medium mr-4">Details</span>
+                        <div class="w-16 h-1 bg-gray-300 mr-4"></div>
+                        <div class="order-step w-8 h-8 rounded-full bg-gray-300 flex items-center justify-center text-sm font-bold mr-2">3</div>
+                        <span class="text-sm font-medium">Payment</span>
+                    </div>
+                </div>
+                
+                <!-- Step 1: Package Selection -->
+                <div id="step-1" class="order-step-content">
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-bold mb-2" id="selected-package-title">With CV Package</h3>
+                        <div class="text-4xl font-bold text-blue-600 mb-2" id="selected-package-price">₦2,500</div>
+                        <p class="text-gray-600" id="selected-package-description">Perfect if you already have a CV</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 p-6 rounded-xl mb-8">
+                        <h4 class="font-bold mb-4">What's included:</h4>
+                        <div id="package-features" class="space-y-2">
+                            <!-- Features will be populated by JavaScript -->
+                        </div>
+                    </div>
+                    
+                    <button onclick="nextStep()" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+                        Continue to Details →
+                    </button>
+                </div>
+                
+                <!-- Step 2: Customer Details -->
+                <div id="step-2" class="order-step-content hidden">
+                    <form id="order-form">
+                        <div class="grid md:grid-cols-2 gap-6 mb-6">
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">First Name *</label>
+                                <input type="text" name="firstName" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Last Name *</label>
+                                <input type="text" name="lastName" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            </div>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Email Address *</label>
+                            <input type="email" name="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Phone Number *</label>
+                            <input type="tel" name="phone" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="+234 803 123 4567">
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Preferred Subdomain *</label>
+                            <div class="flex">
+                                <input type="text" name="subdomain" required class="flex-1 px-4 py-3 border border-gray-300 rounded-l-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="yourname">
+                                <span class="px-4 py-3 bg-gray-100 border border-l-0 border-gray-300 rounded-r-lg text-gray-600">.mycv.ng</span>
+                            </div>
+                            <p class="text-sm text-gray-500 mt-1">Choose a unique name for your website URL</p>
+                        </div>
+                        
+                        <div id="cv-upload-section" class="mb-6">
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Upload Your CV *</label>
+                            <div class="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center">
+                                <input type="file" name="cv" accept=".pdf,.doc,.docx" class="hidden" id="cv-file">
+                                <label for="cv-file" class="cursor-pointer">
+                                    <div class="text-4xl mb-4">📄</div>
+                                    <p class="text-lg font-medium text-gray-700 mb-2">Click to upload your CV</p>
+                                    <p class="text-sm text-gray-500">PDF, DOC, or DOCX (Max 5MB)</p>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-8">
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Special Requests (Optional)</label>
+                            <textarea name="requests" rows="3" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Any specific requirements or preferences..."></textarea>
+                        </div>
+                        
+                        <div class="flex gap-4">
+                            <button type="button" onclick="previousStep()" class="flex-1 bg-gray-500 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+                                ← Back
+                            </button>
+                            <button type="button" onclick="nextStep()" class="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+                                Continue to Payment →
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                
+                <!-- Step 3: Payment -->
+                <div id="step-3" class="order-step-content hidden">
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-bold mb-4">Complete Your Order</h3>
+                        <div class="bg-gray-50 p-6 rounded-xl">
+                            <div class="flex justify-between items-center mb-2">
+                                <span>Package:</span>
+                                <span id="final-package-name" class="font-medium">With CV Package</span>
+                            </div>
+                            <div class="flex justify-between items-center mb-2">
+                                <span>Subdomain:</span>
+                                <span id="final-subdomain" class="font-medium">yourname.mycv.ng</span>
+                            </div>
+                            <div class="border-t pt-2 mt-4">
+                                <div class="flex justify-between items-center text-xl font-bold">
+                                    <span>Total:</span>
+                                    <span id="final-price" class="text-blue-600">₦2,500</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-8">
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="text-2xl">🔒</span>
+                            <span class="font-medium">Secure Payment with Paystack</span>
+                        </div>
+                        <p class="text-gray-600 text-sm">
+                            Your payment is processed securely by Paystack. We accept all major Nigerian banks, 
+                            cards, and mobile money.
+                        </p>
+                    </div>
+                    
+                    <div class="flex gap-4">
+                        <button type="button" onclick="previousStep()" class="flex-1 bg-gray-500 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+                            ← Back
+                        </button>
+                        <button type="button" onclick="processPayment()" class="flex-1 bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+                            💳 Pay Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Order Tracking Modal -->
+    <div id="tracking-modal" class="modal fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50 p-4">
+        <div class="bg-white rounded-2xl max-w-2xl w-full">
+            <div class="p-8">
+                <div class="flex justify-between items-center mb-8">
+                    <h2 class="text-3xl font-bold text-gray-800">Track Your Order</h2>
+                    <button onclick="closeTrackingModal()" class="text-gray-500 hover:text-gray-700 text-2xl">×</button>
+                </div>
+                
+                <div class="mb-8">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">Order Reference or Email</label>
+                    <div class="flex gap-4">
+                        <input type="text" id="tracking-input" class="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="MCV20241201ABC123 or your@email.com">
+                        <button onclick="trackOrder()" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition duration-300">
+                            🔍 Track
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Order Status Display -->
+                <div id="order-status" class="hidden">
+                    <div class="bg-gray-50 p-6 rounded-xl mb-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <h3 class="text-xl font-bold" id="status-name">Adebayo Ogundimu</h3>
+                                <p class="text-gray-600" id="status-domain">adebayo.mycv.ng</p>
+                            </div>
+                            <span id="status-badge" class="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full font-medium">In Progress</span>
+                        </div>
+                        <p class="text-sm text-gray-500">Order Reference: <span id="status-reference" class="font-mono">MCV20241201ABC123</span></p>
+                    </div>
+                    
+                    <!-- Progress Timeline -->
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-4">
+                            <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center text-white text-sm font-bold">✓</div>
+                            <div class="flex-1">
+                                <h4 class="font-medium">Order Confirmed</h4>
+                                <p class="text-sm text-gray-600">Payment received and order confirmed</p>
+                                <p class="text-xs text-gray-500">Dec 1, 2024 - 10:30 AM</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center gap-4">
+                            <div class="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white text-sm">
+                                <div class="w-3 h-3 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                            </div>
+                            <div class="flex-1">
+                                <h4 class="font-medium">Work In Progress</h4>
+                                <p class="text-sm text-gray-600">Our team is creating your website</p>
+                                <p class="text-xs text-gray-500">Started Dec 1, 2024 - 2:15 PM</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center gap-4">
+                            <div class="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center text-gray-600 text-sm">3</div>
+                            <div class="flex-1">
+                                <h4 class="font-medium text-gray-500">Quality Check</h4>
+                                <p class="text-sm text-gray-500">Final review and testing</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center gap-4">
+                            <div class="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center text-gray-600 text-sm">4</div>
+                            <div class="flex-1">
+                                <h4 class="font-medium text-gray-500">Delivered</h4>
+                                <p class="text-sm text-gray-500">Website delivered and live</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8 p-4 bg-blue-50 rounded-lg">
+                        <p class="text-sm text-blue-800">
+                            <strong>Estimated completion:</strong> Dec 2, 2024 by 6:00 PM<br>
+                            <strong>Need help?</strong> Contact us at support@mycv.ng or WhatsApp +234 803 123 4567
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- No Order Found -->
+                <div id="no-order-found" class="hidden text-center py-8">
+                    <div class="text-6xl mb-4">🔍</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Order Not Found</h3>
+                    <p class="text-gray-600 mb-6">
+                        We couldn't find an order with that reference or email address. 
+                        Please check your details and try again.
+                    </p>
+                    <button onclick="resetTracking()" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition duration-300">
+                        Try Again
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global variables
+        let currentStep = 1;
+        let selectedPackageType = 'with-cv';
+        let selectedPackagePrice = 2500;
+        let orderData = {};
+
+        // Package data
+        const packages = {
+            'with-cv': {
+                title: 'With CV Package',
+                price: 2500,
+                description: 'Perfect if you already have a CV',
+                features: [
+                    'Professional CV website',
+                    'yourname.mycv.ng subdomain',
+                    'Mobile responsive design',
+                    'SEO optimized',
+                    '24-48 hour delivery',
+                    '1 year free hosting'
+                ]
+            },
+            'custom': {
+                title: 'Custom Creation',
+                price: 5000,
+                description: 'We create everything from scratch',
+                features: [
+                    'Everything in With CV package',
+                    'Professional CV writing',
+                    'LinkedIn profile optimization',
+                    'Cover letter template',
+                    '3-5 day delivery',
+                    'Priority support'
+                ]
+            }
+        };
+
+        // Navigation functions
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+
+        function scrollToPackages() {
+            document.getElementById('packages').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Package selection
+        function selectPackage(packageType, price) {
+            selectedPackageType = packageType;
+            selectedPackagePrice = price;
+            openOrderModal();
+        }
+
+        // Modal functions
+        function openOrderModal() {
+            const modal = document.getElementById('order-modal');
+            modal.classList.add('show');
+            updatePackageDisplay();
+            resetOrderSteps();
+        }
+
+        function closeOrderModal() {
+            const modal = document.getElementById('order-modal');
+            modal.classList.remove('show');
+        }
+
+        function openTrackingModal() {
+            const modal = document.getElementById('tracking-modal');
+            modal.classList.add('show');
+        }
+
+        function closeTrackingModal() {
+            const modal = document.getElementById('tracking-modal');
+            modal.classList.remove('show');
+        }
+
+        // Order process functions
+        function updatePackageDisplay() {
+            const pkg = packages[selectedPackageType];
+            document.getElementById('selected-package-title').textContent = pkg.title;
+            document.getElementById('selected-package-price').textContent = `₦${pkg.price.toLocaleString()}`;
+            document.getElementById('selected-package-description').textContent = pkg.description;
+            
+            const featuresContainer = document.getElementById('package-features');
+            featuresContainer.innerHTML = pkg.features.map(feature => 
+                `<div class="flex items-center gap-3">
+                    <span class="text-green-500 text-lg">✅</span>
+                    <span>${feature}</span>
+                </div>`
+            ).join('');
+
+            // Update CV upload section visibility
+            const cvSection = document.getElementById('cv-upload-section');
+            if (selectedPackageType === 'custom') {
+                cvSection.style.display = 'none';
+            } else {
+                cvSection.style.display = 'block';
+            }
+        }
+
+        function resetOrderSteps() {
+            currentStep = 1;
+            updateStepDisplay();
+        }
+
+        function nextStep() {
+            if (currentStep < 3) {
+                if (validateCurrentStep()) {
+                    currentStep++;
+                    updateStepDisplay();
+                    if (currentStep === 3) {
+                        updateFinalSummary();
+                    }
+                }
+            }
+        }
+
+        function previousStep() {
+            if (currentStep > 1) {
+                currentStep--;
+                updateStepDisplay();
+            }
+        }
+
+        function updateStepDisplay() {
+            // Hide all step contents
+            document.querySelectorAll('.order-step-content').forEach(content => {
+                content.classList.add('hidden');
+            });
+            
+            // Show current step content
+            document.getElementById(`step-${currentStep}`).classList.remove('hidden');
+            
+            // Update step indicators
+            document.querySelectorAll('.order-step').forEach((step, index) => {
+                step.classList.remove('active', 'completed');
+                if (index + 1 < currentStep) {
+                    step.classList.add('completed');
+                } else if (index + 1 === currentStep) {
+                    step.classList.add('active');
+                }
+            });
+        }
+
+        function validateCurrentStep() {
+            if (currentStep === 2) {
+                const form = document.getElementById('order-form');
+                const formData = new FormData(form);
+                
+                // Check required fields
+                const requiredFields = ['firstName', 'lastName', 'email', 'phone', 'subdomain'];
+                for (let field of requiredFields) {
+                    if (!formData.get(field)) {
+                        showNotification(`Please fill in your ${field.replace(/([A-Z])/g, ' $1').toLowerCase()}`, 'error');
+                        return false;
+                    }
+                }
+                
+                // Check CV upload for with-cv package
+                if (selectedPackageType === 'with-cv' && !formData.get('cv')) {
+                    showNotification('Please upload your CV', 'error');
+                    return false;
+                }
+                
+                // Store order data
+                orderData = {
+                    packageType: selectedPackageType,
+                    price: selectedPackagePrice,
+                    firstName: formData.get('firstName'),
+                    lastName: formData.get('lastName'),
+                    email: formData.get('email'),
+                    phone: formData.get('phone'),
+                    subdomain: formData.get('subdomain'),
+                    requests: formData.get('requests'),
+                    cv: formData.get('cv')
+                };
+            }
+            return true;
+        }
+
+        function updateFinalSummary() {
+            const pkg = packages[selectedPackageType];
+            document.getElementById('final-package-name').textContent = pkg.title;
+            document.getElementById('final-subdomain').textContent = `${orderData.subdomain}.mycv.ng`;
+            document.getElementById('final-price').textContent = `₦${pkg.price.toLocaleString()}`;
+        }
+
+        function processPayment() {
+            // In a real implementation, this would integrate with Paystack
+            showNotification('Redirecting to secure payment...', 'info');
+            
+            setTimeout(() => {
+                // Simulate successful payment
+                const orderRef = generateOrderReference();
+                showNotification('Payment successful! Order confirmed.', 'success');
+                closeOrderModal();
+                
+                // Show order confirmation
+                setTimeout(() => {
+                    alert(`🎉 Order Confirmed!\n\nOrder Reference: ${orderRef}\nWebsite: ${orderData.subdomain}.mycv.ng\n\nYou'll receive a confirmation email shortly. We'll start working on your website within 24 hours!`);
+                }, 1000);
+            }, 2000);
+        }
+
+        function generateOrderReference() {
+            const date = new Date().toISOString().slice(0, 10).replace(/-/g, '');
+            const random = Math.random().toString(36).substring(2, 8).toUpperCase();
+            return `MCV${date}${random}`;
+        }
+
+        // Order tracking functions
+        function trackOrder() {
+            const input = document.getElementById('tracking-input').value.trim();
+            if (!input) {
+                showNotification('Please enter an order reference or email', 'error');
+                return;
+            }
+            
+            // Simulate order lookup
+            showNotification('Looking up your order...', 'info');
+            
+            setTimeout(() => {
+                // For demo purposes, show order status for any input
+                if (input.toLowerCase().includes('adebayo') || input.includes('MCV20241201ABC123')) {
+                    showOrderStatus();
+                } else {
+                    showNoOrderFound();
+                }
+            }, 1500);
+        }
+
+        function showOrderStatus() {
+            document.getElementById('order-status').classList.remove('hidden');
+            document.getElementById('no-order-found').classList.add('hidden');
+        }
+
+        function showNoOrderFound() {
+            document.getElementById('order-status').classList.add('hidden');
+            document.getElementById('no-order-found').classList.remove('hidden');
+        }
+
+        function resetTracking() {
+            document.getElementById('tracking-input').value = '';
+            document.getElementById('order-status').classList.add('hidden');
+            document.getElementById('no-order-found').classList.add('hidden');
+        }
+
+        // Example preview functions
+        function previewExample(name) {
+            const examples = {
+                adebayo: 'https://adebayo.mycv.ng',
+                fatima: 'https://fatima.mycv.ng',
+                chioma: 'https://chioma.mycv.ng'
+            };
+            
+            // In a real implementation, these would be actual URLs
+            showNotification(`Opening preview for ${name}.mycv.ng`, 'info');
+            // window.open(examples[name], '_blank');
+        }
+
+        // Contact form
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            showNotification('Message sent! We\'ll get back to you within 24 hours.', 'success');
+            this.reset();
+        });
+
+        // Utility functions
+        function showNotification(message, type = 'info') {
+            const colors = {
+                success: 'bg-green-500',
+                error: 'bg-red-500',
+                info: 'bg-blue-500',
+                warning: 'bg-yellow-500'
+            };
+            
+            const notification = document.createElement('div');
+            notification.className = `fixed top-4 right-4 ${colors[type]} text-white px-6 py-3 rounded-lg shadow-lg z-50 transform translate-x-full transition-transform duration-300`;
+            notification.textContent = message;
+            
+            document.body.appendChild(notification);
+            
+            setTimeout(() => {
+                notification.classList.remove('translate-x-full');
+            }, 100);
+            
+            setTimeout(() => {
+                notification.classList.add('translate-x-full');
+                setTimeout(() => {
+                    document.body.removeChild(notification);
+                }, 300);
+            }, 3000);
+        }
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Close modals when clicking outside
+        document.addEventListener('click', function(e) {
+            if (e.target.classList.contains('modal')) {
+                e.target.classList.remove('show');
+            }
+        });
+
+        // Initialize page
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🚀 mycv.ng Customer Interface Loaded!');
+            
+            // Add typing animation effect
+            const typingElement = document.querySelector('.typing-animation');
+            if (typingElement) {
+                const words = ['CV Website', 'Online Resume', 'Digital Portfolio'];
+                let wordIndex = 0;
+                let charIndex = 0;
+                let isDeleting = false;
+                
+                function typeEffect() {
+                    const currentWord = words[wordIndex];
+                    
+                    if (isDeleting) {
+                        typingElement.textContent = currentWord.substring(0, charIndex - 1);
+                        charIndex--;
+                    } else {
+                        typingElement.textContent = currentWord.substring(0, charIndex + 1);
+                        charIndex++;
+                    }
+                    
+                    if (!isDeleting && charIndex === currentWord.length) {
+                        setTimeout(() => isDeleting = true, 2000);
+                    } else if (isDeleting && charIndex === 0) {
+                        isDeleting = false;
+                        wordIndex = (wordIndex + 1) % words.length;
+                    }
+                    
+                    setTimeout(typeEffect, isDeleting ? 50 : 100);
+                }
+                
+                typeEffect();
+            }
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9743d1be03b4593a',t:'MTc1NjA0ODY3NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

@@ -1,0 +1,1 @@
+npx tailwindcss -c js/tailwind-config.js -i ./input.css -o ./css/tailwind.css --minify
